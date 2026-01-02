@@ -1,1 +1,15 @@
 /* Add CSS Styling */
+.blacky,
+.yellowy {
+    font-family: Helvetica, "Times New Roman", sans-serif;
+    font-size: 28px;
+}
+
+.blacky {
+    color: white;
+    background-color: black;
+}
+
+.yellowy {
+    background-color: yellow;
+}
