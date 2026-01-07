@@ -13,17 +13,25 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 32px;
 }
 
 .items {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 .text {
-  flex-basis: 100%;
   text-align: center;
   margin-top: 10px;
+}
+
+.item_inside {
+  max-width: 200px;
+  flex-direction: column;
+  margin: 52px;
+  align-items: center;
 }
 
 /* do not edit this footer */
